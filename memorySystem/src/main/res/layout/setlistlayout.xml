@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" >
+
+"
+
+    
+
+    
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="设置购物单"
+        android:textColor="#ff00ffff" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="返回" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button02"
+        android:layout_alignParentLeft="true"
+        android:text="确定" />
+
+    <EditText
+        android:id="@+id/edittext01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button01"
+        android:layout_alignParentLeft="true"
+        android:digits="0123456789"
+        android:hint="请输入食品少于多少天...例如：5"
+        android:textColorHint="#ff000000" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittext01"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/textview02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="20dp"
+        android:text="已经提醒的食物清单："
+        android:textColor="#ffffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/textview02"
+        android:layout_alignBottom="@+id/textview02"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/wwlook" />
+    
+    <TextView
+        android:id="@+id/textview03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button03"
+        android:layout_marginTop="59dp"
+        android:text="食物量少于3天的清单："
+        android:textColor="#ffffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/textview03"
+        android:layout_alignBottom="@+id/textview03"
+        android:layout_alignLeft="@+id/button03"
+        android:background="@drawable/wwlook" />"
+ 
+    <TextView
+        android:id="@+id/textview04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button04"
+        android:layout_marginTop="30dp"
+        android:text="食物量少于5天的清单："
+        android:textColor="#ffffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/textview04"
+        android:layout_alignBottom="@+id/textview04"
+        android:layout_alignLeft="@+id/button04"
+        android:background="@drawable/wwlook" />
+    
+    <TextView
+        android:id="@+id/textview05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button05"
+        android:layout_marginTop="30dp"
+        android:text="食物量少于7天的清单："
+        android:textColor="#ffffffff"
+        android:textSize="15dp" />
+    
+    <Button
+        android:id="@+id/button06"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/textview05"
+        android:layout_alignBottom="@+id/textview05"
+        android:layout_alignLeft="@+id/button05"
+        android:background="@drawable/wwlook" />
+"
+
+
+</RelativeLayout>

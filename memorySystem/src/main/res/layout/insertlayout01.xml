@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" >
+
+    <TextView
+        android:id="@+id/textview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff00ffff"
+        android:text="请选择存储地点..." />
+
+    <ImageButton
+        android:id="@+id/imagebutton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview01"
+        android:layout_marginTop="78dp"
+        android:background="#00000000"
+        android:src="@drawable/ice" />
+
+    <ImageButton
+        android:id="@+id/imagebutton03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imagebutton01"
+        android:background="#00000000"
+        android:src="@drawable/storeroom" />
+
+    <ImageButton
+        android:id="@+id/imagebutton02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imagebutton01"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/imagebutton03"
+        android:background="#00000000"
+        android:src="@drawable/kitchen" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:text="返回" />
+"
+
+</RelativeLayout>

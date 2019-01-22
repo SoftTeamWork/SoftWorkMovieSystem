@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2" >
+    
+    <TextView
+        android:id="@id/textview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff00ffff"
+        android:text="帮助界面" />
+    
+    <TextView
+        android:id="@+id/textview02"
+        android:layout_below="@+id/textview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffcccccc"
+        android:textSize="13dp"
+        android:text="本软件为家庭食物储藏信息管理软件，用户输入家庭所有食物的信息，软件可以帮您实现智能管理，拥有功能如下：" />
+    
+    <TextView
+        android:id="@+id/textview03"
+        android:layout_below="@+id/textview02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffcccccc"
+        android:textSize="13dp"
+        android:text="      添加功能：通过不同的储藏地点，选择添加不同的食物信息，包括食物名称，购买日期，食用量，提醒条件等。" />
+    
+    <TextView
+        android:id="@+id/textview04"
+        android:layout_below="@+id/textview03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffcccccc"
+        android:textSize="13dp"
+        android:text="      查询功能：可以查询已经添加的食物信息，点击列表中的食物，可以看到食物的详细信息。可以修改、删除食物信息。" />
+    
+    <TextView
+        android:id="@+id/textview05"
+        android:layout_below="@+id/textview04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffcccccc"
+        android:textSize="13dp"
+        android:text="      提醒功能：针对已经设置提醒条件的食物，如果开启提醒，到达您指定的时间，在满足提醒条件的情况下，手机会自动提醒您食物不足。该提醒也可以关闭。" />
+    
+    <TextView
+        android:id="@+id/textview06"
+        android:layout_below="@+id/textview05"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffcccccc"
+        android:textSize="13dp"
+        android:text="       购买清单：该功能根据您家庭食物储藏情况，给你提供购买清单，方便您理性购物。包括已经提醒的食物清单和剩余情况自定义清单供您选择。" />
+    
+    <TextView
+        android:id="@+id/textview07"
+        android:layout_below="@+id/textview06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffcccccc"
+        android:textSize="13dp"
+        android:text="       希望您提出宝贵意见，让我们为您提供最优质的服务。" />
+    
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:text="返回" />
+"
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" >
+
+    <TextView
+        android:id="@+id/textview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff00ffff"
+        android:text="冰箱存储请选择..." />
+
+    <GridView
+        android:id="@+id/gridview01"
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:layout_below="@+id/textview01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:numColumns="3" >
+    </GridView>
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/gridview01"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/wwback" />
+    
+    <EditText
+        android:id="@+id/edittext01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button02"
+        android:layout_alignParentLeft="true"
+        android:textColorHint="#ff000000"
+        android:hint="请输入上面没有的食品名称..." />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button02"
+        android:layout_alignBottom="@+id/button02"
+        android:layout_marginRight="28dp"
+        android:layout_toLeftOf="@+id/button02"
+        android:background="@drawable/wwsubmit" />
+    <TextView
+        android:id="@+id/textview02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittext01"
+        android:textColor="#ffffffff"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

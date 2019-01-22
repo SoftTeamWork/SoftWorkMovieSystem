@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="设置提醒界面"
+        android:textColor="#ff00ffff" />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/textview03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="35dp"
+        android:text="您设置的时间为："
+        android:textColor="#ffffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textview04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview03"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview04"
+        android:layout_marginTop="22dp"
+        android:text="启动提醒" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button02"
+        android:layout_alignBottom="@+id/button02"
+        android:layout_alignParentRight="true"
+        android:text="关闭提醒" />
+
+</RelativeLayout>

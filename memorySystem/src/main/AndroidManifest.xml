@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.memory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <receiver android:name="CallAlarm" android:process=":remote" />
+        <receiver android:name="Callupdata" android:process=":remote" />
+        <activity
+            android:label="@string/app_name"
+            android:name=".MemorySystemActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="chooseActivity">
+        </activity>
+        <activity android:name="addiceActivity">
+        </activity>
+        <activity android:name="lookActivity">
+        </activity>
+        <activity android:name="modifyActivity">
+        </activity>
+        <activity android:name="deleteActivity">
+        </activity>
+        <activity android:name="listActivity">
+        </activity>
+        <activity android:name="remindActivity">
+        </activity>
+        <activity android:name="searchActivity">
+        </activity>
+        <activity android:name="setlistActivity">
+        </activity>
+        <activity android:name="alarmActivity" />
+        <activity android:name="updataActivity" />
+        <activity android:name="emptyActivity" />
+        <activity android:name="insertActivity01" />
+        <activity android:name="inserticeActivity" />
+        <activity android:name="insertkitchenActivity" />
+        <activity android:name="insertroomActivity" />
+        <activity android:name="addkitchenActivity" />
+        <activity android:name="addroomActivity" />
+        <activity android:name="choose01Activity" />
+        <activity android:name="lookiceActivity" />
+        <activity android:name="lookkitchenActivity" />
+        <activity android:name="lookroomActivity" />
+        <activity android:name="searchiceActivity" />
+        <activity android:name="searchkitchenActivity" />
+        <activity android:name="searchroomActivity" />
+        <activity android:name="modifyiceActivity" />
+        <activity android:name="modifykitchenActivity" />
+        <activity android:name="modifyroomActivity" />
+        <activity android:name="listalertActivity" />
+        <activity android:name="helpActivity" />
+    </application> 
+
+</manifest>

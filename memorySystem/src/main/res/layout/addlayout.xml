@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="添加界面"
+        android:textColor="#ff00ffff" />
+
+    <TextView
+        android:id="@+id/textview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="44dp"
+        android:text="返回" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button02"
+        android:layout_alignParentLeft="true"
+        android:text="提交" />
+
+    <EditText
+        android:id="@+id/edittext03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview03"
+        android:layout_marginBottom="96dp"
+        android:digits="0123456789"
+        android:hint="请输入食品可食用多少天，如20"
+        android:textColorHint="#ff000000" >
+    </EditText>
+"
+
+    
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/wwdate" />"
+
+    <TextView
+        android:id="@+id/textview03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button03"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:id="@+id/edittext02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button03"
+        android:layout_alignBottom="@+id/button03"
+        android:layout_alignParentLeft="true"
+        android:enabled="false"
+        android:hint="购买日期(YYYYMMDD)"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffffff" />
+
+    <TextView
+        android:id="@+id/textview02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/edittext03"
+        android:layout_marginTop="76dp"
+        android:textColor="#ffffffff"
+        android:textSize="15dp"
+        android:text="食物量少于多少天提醒：" />
+
+    <Spinner
+        android:id="@+id/spinner01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textview02"
+        android:layout_alignBottom="@+id/textview02"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
